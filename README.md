@@ -1,2 +1,2 @@
 # reproducible_workflow
-an really cool example reproducible workflow
+a really cool example reproducible workflow
