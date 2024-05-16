@@ -1,0 +1,37 @@
+---
+title: "reproducible_workflow_1"
+author: "Scott Klasek"
+date: "2024-05-16"
+output: github_document
+---
+
+# Large header
+
+## Another header
+
+**make bold text like this**
+
+*italic text*
+
+[https://happygitwithr.com/big-picture](https://happygitwithr.com/big-picture).  
+
+There can be text here like this
+
+```{r}
+2+2
+
+library(phyloseq)
+
+### phyloseq objects across all sites
+its.all.ps <- readRDS(file = "/Users/klas0061/Desktop/UMN/phyloseqs/all_obj1_by_site/all.ITS.ps")
+
+its.all.ps # this is the phyloseq object of the ITS data
+
+cat("this object contains ", ntaxa(its.all.ps), "ASVs")
+```
+
+This dataset contains 33k taxa and 2800 sample. 
+
+
+
+
