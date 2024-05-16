@@ -16,10 +16,10 @@ Scott Klasek
 There can be text here like this
 
 ``` r
-2+2
+3+3
 ```
 
-    ## [1] 4
+    ## [1] 6
 
 ``` r
 library(phyloseq)

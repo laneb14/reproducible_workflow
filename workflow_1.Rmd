@@ -18,7 +18,7 @@ output: github_document
 There can be text here like this
 
 ```{r}
-2+2
+3+3
 
 library(phyloseq)
 
